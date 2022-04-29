@@ -1,0 +1,131 @@
+/* navbar */
+.navbar{
+    background:#07041a ;
+    width: 100% !important;
+}
+.navbar-brand{
+    padding-left: 10%;
+}
+.nav-item{
+    padding: 0 15px;
+}
+.nav-btn{
+    margin-right: 10% !important;
+}
+
+/* header */
+#header{
+    background:#07041a;
+    padding: 7% 10%;
+}
+.images{
+    height: 400px;
+    display: block;
+    margin: auto;
+    border-radius: 25% ;
+}
+.small{
+    height: 50px;
+    width: 50x;
+    border-radius: 45%;
+}
+body::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#2032,#3a3845);
+    clip-path: circle(20% at 10% 10%);
+}
+
+.large-header{
+    color: #fff;
+    font-size: 3.5rem;
+}
+span, p{
+    color: grey;
+}
+.ankor{
+    color: green;
+}
+/* feature-section */
+.first-feature{
+    padding: 7% 10% 0;
+}
+.feature{
+    padding: 7% 10%;
+}
+   .dark-heading{
+       color: #000;
+   }
+   .light-heading{
+       color: #fff
+   }
+   .card{
+       background-color: #07041a !important;
+   }
+   .card-text{
+       padding: 5% 0;
+   }
+   /* number section */
+   .hr-1{
+       border: 3px solid grey;
+   }
+   .bold{
+       font-size: 2.5rem;
+       font-weight: bold;
+   }
+   /* target section */
+   .target-image{
+       width: 100%;
+       height: 200px;
+       padding: 0 10%;
+   }
+   /* coporate section */
+   .coperate-header{
+    padding: 7% 10% 0;
+   }
+   .coperate{
+padding: 3% 10%;
+   }
+   /* footer */
+   #footer{
+       background-color: #07041a;
+       padding: 7% 10%;
+   }
+   .footer-img{
+       height: 300px;
+       width: 300px;
+       border-radius: 50%;
+       display: block;
+       margin: auto;
+   }
+   @media(max-width : 672px){
+    .images{
+        height: 300px;
+        width: 250px;
+        display: block;
+        margin: auto;
+        border-radius: 25% ;
+        padding-top: 5%;
+    }
+    .footer-img{
+        height: 300px;
+        width: 200px;
+        border-radius: 50%;
+        display: block;
+        margin: auto;
+        padding-top: 5%;
+    }
+    #header {
+        text-align: center;
+    }
+    #footer{
+        text-align: center;
+    }
+    #number-section{
+        text-align: center;
+    }
+   }
